@@ -36,6 +36,9 @@ table {
     box-sizing: border-box;
 }
 /* end reset browser styles */
+*{
+  font-family: Vijaya, Verdana, Arial, sans-serif;
+}
 
 #logo_muurken{
   width: 11%;
@@ -56,11 +59,32 @@ table {
 .main{
   width: 1200px;
   height:858px;
-  margin:auto;
-  background-image: url("../img/kapelmuur.jpg");
+  margin:2% auto;
+  font-size: 1.2em;
+  /*background-image: url("../img/kapelmuur.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
+}
+
+h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+#welkom h2{
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.news h2{
+  font-size:1.3em;
+  margin-bottom: 1%;
+}
+
+section{
+  margin:2% 0;
 }
 
 nav{
@@ -81,19 +105,76 @@ ul{
   list-style: none;
 }
 
-li{
+.headerContent li{
   float: left;
   margin-right: 3%;
   margin-top: 5%;
 }
 
-a{
+.headerContent a{
   text-decoration: none;
-  font-family: Vijaya, Verdana, Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5em;
   color: #121212;
 }
+
+.footerleft{
+  float:left;
+  width:30%;
+  margin: 1.5% 1.5%;
+  text-align: left;
+}
+
+.footermiddle{
+  float:left;
+  width:30%;
+  margin: 1.5% 1.5%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.footermiddle b{
+  font-size: 2em;
+}
+
+.footerright{
+  float:left;
+  width: 30%;
+  margin: 1.5% 1.5%;
+  text-align: right;
+}
+
+.footerContent{
+  width: 1200px;
+  margin:auto;
+  font-size: 1.2em;;
+}
+
+.footer{
+  width: 100%;
+  height: 120px;
+  background-color: #fecd06;
+  border-top: 1px black solid;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Credit: http://bradsknutson.com/blog/css-sliding-underline/*/
 /* ************************************/
