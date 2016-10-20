@@ -156,7 +156,12 @@ ul{
   height: 120px;
   background-color: #fecd06;
   border-top: 1px black solid;
+}
 
+.main img
+{
+  width: 128px;
+  heigth:128px;
 }
 
 
