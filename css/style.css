@@ -160,8 +160,10 @@ ul{
 
 .main img
 {
-  width: 128px;
-  heigth:128px;
+  width: 800px;
+  heigth:600px;
+  margin: auto;
+  display: block;
 }
 
 
