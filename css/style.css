@@ -36,11 +36,62 @@ table {
     box-sizing: border-box;
 }
 /* end reset browser styles */
+
+.header{
+  background-color: #fecd06;
+  border-bottom: 1px black solid;
+}
+
+footer{
+  background-color: #fecd06;
+  border-top: 1px black solid;
+  color:#3D3B30;
+  padding: 1% 0;
+  font-size: 1.1em;
+}
+
+.footermiddle b{
+  font-size: 1.3em;
+}
+
+#logo_muurken{
+  padding:0.25%;
+  width:75px;
+  height:75px;
+}
+
+nav{
+  margin-top:2%;
+}
+
+ul.nav a:hover {
+  background-color: #fecd06 !important;
+}
+
+ul.nav a{
+  font-size: 1.1em;
+  font-weight: bold;
+  color:#3D3B30;
+}
+
+
 *{
   font-family: Vijaya, Verdana, Arial, sans-serif;
 }
 
-#logo_muurken{
+body{
+  background-color:#9E2B25;
+  color:#FFF8F0;
+}
+
+.news{
+  background-color: #6E0E0A;
+  padding: 2% 1%;
+  border-left: 1px #4e0704 solid;
+  border-right: 1px #4e0704 solid;
+}
+
+/*#logo_muurken{
   width: 11%;
   height:128px;
   float:left;
@@ -49,12 +100,9 @@ table {
   margin-left: 5%;
 }
 
-.header{
-  width: 100%;
-  height:100px;
-  background-color: #fecd06;
-  border-bottom: 1px black solid;
-}
+
+
+
 
 .main{
   width: 1200px;
@@ -64,7 +112,7 @@ table {
   /*background-image: url("../img/kapelmuur.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
 }
 
 h1{
@@ -160,11 +208,11 @@ ul{
 
 .main img
 {
-  width: 800px;
-  heigth:600px;
+  max-width: 800px;
+  max-height: 600px;
   margin: auto;
   display: block;
-}
+}*/
 
 
 
